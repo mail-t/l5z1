@@ -1,0 +1,12 @@
+.box {
+  width: 94%;
+  height: 500px;
+  margin: 0 auto;
+  background-color: orange;
+}
+
+@media screen and (min-width: 769px) {
+  .box {
+    width: 640px;
+  }
+}
